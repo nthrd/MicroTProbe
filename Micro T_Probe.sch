@@ -1,0 +1,254 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tmp_102
+LIBS:Micro T_Probe-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "24 jul 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TMP_102 U1
+U 1 1 51EEF8A8
+P 4250 2350
+F 0 "U1" H 4350 2000 60  0000 C CNN
+F 1 "TMP_102" V 4250 2350 60  0000 C CNN
+F 2 "~" H 4250 2350 60  0000 C CNN
+F 3 "~" H 4250 2350 60  0000 C CNN
+	1    4250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 51EEF8B7
+P 2600 2350
+F 0 "C1" H 2600 2450 40  0000 L CNN
+F 1 "C" H 2606 2265 40  0000 L CNN
+F 2 "~" H 2638 2200 30  0000 C CNN
+F 3 "~" H 2600 2350 60  0000 C CNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 51EEF8E5
+P 3400 2000
+F 0 "R2" V 3480 2000 40  0000 C CNN
+F 1 "R" V 3407 2001 40  0000 C CNN
+F 2 "~" V 3330 2000 30  0000 C CNN
+F 3 "~" H 3400 2000 30  0000 C CNN
+	1    3400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 51EEF8FA
+P 3050 2000
+F 0 "R1" V 3130 2000 40  0000 C CNN
+F 1 "R" V 3057 2001 40  0000 C CNN
+F 2 "~" V 2980 2000 30  0000 C CNN
+F 3 "~" H 3050 2000 30  0000 C CNN
+	1    3050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 51EEF90D
+P 5250 2000
+F 0 "R3" V 5330 2000 40  0000 C CNN
+F 1 "R" V 5257 2001 40  0000 C CNN
+F 2 "~" V 5180 2000 30  0000 C CNN
+F 3 "~" H 5250 2000 30  0000 C CNN
+	1    5250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GS2 GS1
+U 1 1 51EEF941
+P 5850 2150
+F 0 "GS1" H 5950 2300 50  0000 C CNN
+F 1 "GS2" H 5950 2001 40  0000 C CNN
+F 2 "" H 5850 2150 60  0000 C CNN
+F 3 "" H 5850 2150 60  0000 C CNN
+	1    5850 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GS2 GS3
+U 1 1 51EEF958
+P 5850 2400
+F 0 "GS3" H 5950 2550 50  0000 C CNN
+F 1 "GS2" H 5950 2251 40  0000 C CNN
+F 2 "" H 5850 2400 60  0000 C CNN
+F 3 "" H 5850 2400 60  0000 C CNN
+	1    5850 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GS2 GS4
+U 1 1 51EEF95E
+P 5850 2650
+F 0 "GS4" H 5950 2800 50  0000 C CNN
+F 1 "GS2" H 5950 2501 40  0000 C CNN
+F 2 "" H 5850 2650 60  0000 C CNN
+F 3 "" H 5850 2650 60  0000 C CNN
+	1    5850 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GS2 GS2
+U 1 1 51EEF964
+P 5850 2900
+F 0 "GS2" H 5950 3050 50  0000 C CNN
+F 1 "GS2" H 5950 2751 40  0000 C CNN
+F 2 "" H 5850 2900 60  0000 C CNN
+F 3 "" H 5850 2900 60  0000 C CNN
+	1    5850 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_5 P1
+U 1 1 51EEF97A
+P 6950 3500
+F 0 "P1" V 6900 3500 50  0000 C CNN
+F 1 "CONN_5" V 7000 3500 50  0000 C CNN
+F 2 "" H 6950 3500 60  0000 C CNN
+F 3 "" H 6950 3500 60  0000 C CNN
+	1    6950 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 2150 2600 1750
+Wire Wire Line
+	2600 1750 5250 1750
+Wire Wire Line
+	2600 2550 2600 2950
+Wire Wire Line
+	2600 2950 4250 2950
+Wire Wire Line
+	3400 2250 3750 2250
+Wire Wire Line
+	3750 2250 3750 2200
+Wire Wire Line
+	3050 2250 3050 2500
+Wire Wire Line
+	3050 2500 3750 2500
+Connection ~ 4250 1750
+Wire Wire Line
+	5250 2250 5250 2500
+Wire Wire Line
+	5250 2500 4750 2500
+Wire Wire Line
+	6050 2900 6750 2900
+Wire Wire Line
+	6050 2650 6850 2650
+Wire Wire Line
+	6850 2650 6850 3100
+Wire Wire Line
+	6050 2400 6950 2400
+Wire Wire Line
+	6950 1950 6950 3100
+Wire Wire Line
+	6050 2150 7150 2150
+Wire Wire Line
+	7150 1950 7150 3100
+Wire Wire Line
+	5650 2150 5650 2900
+Connection ~ 5650 2400
+Connection ~ 5650 2650
+Wire Wire Line
+	6750 2900 6750 3100
+Text Label 4250 1750 1    60   ~ 0
+VCC
+Text Label 6750 3050 2    60   ~ 0
+VCC
+Text Label 7150 2300 0    60   ~ 0
+GND
+Text Label 2600 2800 0    60   ~ 0
+GND
+Text Label 6850 2800 2    60   ~ 0
+SDA
+Text Label 3600 2250 3    60   ~ 0
+SDA
+Text Label 6950 2550 2    60   ~ 0
+SCL
+Text Label 3550 2500 3    60   ~ 0
+SCL
+Text Label 7050 2800 0    60   ~ 0
+ALERT
+Text Label 5250 2450 2    60   ~ 0
+ALERT
+Text Label 5650 2800 2    60   ~ 0
+ADD
+Text Label 4750 2200 0    60   ~ 0
+ADD
+Connection ~ 3050 1750
+Connection ~ 3400 1750
+$Comp
+L CONN_5 P2
+U 1 1 51F03551
+P 6950 1550
+F 0 "P2" V 6900 1550 50  0000 C CNN
+F 1 "CONN_5" V 7000 1550 50  0000 C CNN
+F 2 "" H 6950 1550 60  0000 C CNN
+F 3 "" H 6950 1550 60  0000 C CNN
+	1    6950 1550
+	0    1    -1   0   
+$EndComp
+Connection ~ 7150 2150
+Wire Wire Line
+	7050 1950 7050 3100
+Connection ~ 6950 2400
+Wire Wire Line
+	6750 2650 6750 2350
+Wire Wire Line
+	6750 2350 6850 2350
+Wire Wire Line
+	6850 2350 6850 1950
+Connection ~ 6750 2650
+Wire Wire Line
+	6650 2900 6650 2050
+Wire Wire Line
+	6650 2050 6750 2050
+Wire Wire Line
+	6750 2050 6750 1950
+Connection ~ 6650 2900
+$EndSCHEMATC

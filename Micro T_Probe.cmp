@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 09 Aug 2013 03:26:06 PM CDT
+
+BeginCmp
+TimeStamp = /51EEF8B7;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF941;
+Reference = GS1;
+ValeurCmp = GS2;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF964;
+Reference = GS2;
+ValeurCmp = GS2;
+IdModule  = Solder_Junction;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF958;
+Reference = GS3;
+ValeurCmp = GS2;
+IdModule  = Solder_Junction;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF95E;
+Reference = GS4;
+ValeurCmp = GS2;
+IdModule  = Solder_Junction;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF97A;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = Thread_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F03551;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = Thread_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF8FA;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF8E5;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF90D;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEF8A8;
+Reference = U1;
+ValeurCmp = TMP_102;
+IdModule  = SOT563;
+EndCmp
+
+EndListe

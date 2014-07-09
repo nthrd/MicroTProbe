@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 26 May 2014 01:59:31 PM CDT
+
+BeginCmp
+TimeStamp = /53838BE9;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = Thread_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53838BDC;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = Thread_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53838BEF;
+Reference = P3;
+ValeurCmp = CONN_5;
+IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+EndListe
