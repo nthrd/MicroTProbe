@@ -1,37 +1,37 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 09 Aug 2013 03:26:06 PM CDT
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat 02 Aug 2014 09:23:37 PM CDT
 
 BeginCmp
 TimeStamp = /51EEF8B7;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = SM0603_Capa;
+IdModule  = SM0603_CAPAHAND;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EEF941;
 Reference = GS1;
-ValeurCmp = GS2;
-IdModule  = SM0201_r;
+ValeurCmp = 00;
+IdModule  = Solder_Junction;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EEF964;
 Reference = GS2;
-ValeurCmp = GS2;
+ValeurCmp = 01;
 IdModule  = Solder_Junction;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EEF958;
 Reference = GS3;
-ValeurCmp = GS2;
+ValeurCmp = 11;
 IdModule  = Solder_Junction;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EEF95E;
 Reference = GS4;
-ValeurCmp = GS2;
+ValeurCmp = 10;
 IdModule  = Solder_Junction;
 EndCmp
 
@@ -53,21 +53,21 @@ BeginCmp
 TimeStamp = /51EEF8FA;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = SM0603;
+IdModule  = SM0603_HAND;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EEF8E5;
 Reference = R2;
 ValeurCmp = R;
-IdModule  = SM0603;
+IdModule  = SM0603_HAND;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EEF90D;
 Reference = R3;
 ValeurCmp = R;
-IdModule  = SM0603;
+IdModule  = SM0603_HAND;
 EndCmp
 
 BeginCmp

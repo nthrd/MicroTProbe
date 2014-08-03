@@ -204,11 +204,11 @@ Text Label 7150 2300 0    60   ~ 0
 GND
 Text Label 2600 2800 0    60   ~ 0
 GND
-Text Label 6950 2550 2    60   ~ 0
+Text Label 6850 2800 2    60   ~ 0
 SDA
 Text Label 3600 2250 3    60   ~ 0
 SDA
-Text Label 6850 2800 2    60   ~ 0
+Text Label 6950 2550 2    60   ~ 0
 SCL
 Text Label 3550 2500 3    60   ~ 0
 SCL
